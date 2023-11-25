@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<div class="card-wrapper">
+    <div class="card">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="{{url_for('static', filename='img1.png')}}" class="card-img">
+            </div>
+
+        </div>
+        <div class="card-content">
+            <h2 class="tool_name">Instagram</h2>
+            <p class="description">
+            <ul class="tool">
+                <li>⭐Reels Downloader</li>
+                <li>⭐Audio Downloader</li>
+            </ul>
+            </p>
+            <button class="tool_btn">Open</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="{{url_for('static', filename='img1.png')}}" class="card-img">
+            </div>
+
+        </div>
+        <div class="card-content">
+            <h2 class="tool_name">Youtube</h2>
+            <p class="description">
+            <ul class="tool">
+                <li>⭐Video Downloader</li>
+                <li>⭐mp3 converter</li>
+            </ul>
+            </p>
+            <button class="tool_btn">Open</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="{{url_for('static', filename='img1.png')}}" class="card-img">
+            </div>
+
+        </div>
+        <div class="card-content">
+            <h2 class="tool_name">AI Tools</h2>
+            <p class="description">
+            <ul class="tool">
+                <li>⭐Text to Image</li>
+                <li>⭐GPT-3</li>
+            </ul>
+            </p>
+            <button class="tool_btn">Open</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="image-content">
+            <span class="overlay"></span>
+
+            <div class="card-image">
+                <img src="{{url_for('static', filename='img1.png')}}" class="card-img">
+            </div>
+
+        </div>
+        <div class="card-content">
+            <h2 class="tool_name">Utilities</h2>
+            <p class="description">
+            <ul class="tool">
+                <li>⭐Qrcode Generator</li>
+                <li>⭐Copyright generator</li>
+                <li>⭐T&C Generator</li>
+            </ul>
+            </p>
+            <button class="tool_btn">Open</button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
